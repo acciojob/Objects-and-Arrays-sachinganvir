@@ -6,7 +6,11 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-
+// ansstart
+var team= players;
+var team1 =players.slice();
+var cap1 = Object.assign({}, person);
+// ansend
 window.players = players;
 window.person = person;
 window.team = team;
